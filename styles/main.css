@@ -2594,7 +2594,7 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .progress-container.progress-primary .progress-bar {
@@ -4675,6 +4675,10 @@ Created using IcoMoon - icomoon.io
   padding-top: 0px;
   padding-bottom: 0px;
   min-height: auto;
+}
+
+.justified {
+  text-align: justify;
 }
 
 .card-signup .checkbox {
